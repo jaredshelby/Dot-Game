@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dot Game</title>
+    <link href="https://fonts.googleapis.com/css?family=Orbitron:400,500,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <div class="game-header">
+    <div class="score-wrapper">
+    	<span id="total-score">0</span>
+ 	  </div>
+    <div class="start-wrapper">
+      <button type="button" name="start-button" value="START" id="start-button">START</button>
+    </div>
+    <div class="slider-wrapper">
+      <input type="range" min="10" max="100" value="10" class="slider" id="speed-slider">
+      <label for="speed-slider">Speed</label>
+    </div>
+  </div>
+  <div id="game-board">
+    <div id="paused" class="hidden">
+        <h1 id="pause-text">Paused</h1>
+    </div>
+  </div>
+  <script src="/index.js"></script>
+</body>
+</html>
