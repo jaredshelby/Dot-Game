@@ -17,6 +17,11 @@ input[type="submit"],
 .input-checkbox {
 -webkit-appearance: none;
 }
+
+div.game-header {
+    max-width: 800px;
+    margin: 0 auto;
+}
 div.score-wrapper, div.start-wrapper {
   width: 50%;
   float: left;
