@@ -83,8 +83,3 @@ function moveDot() {
     }
   }
 }
-
-
-// TO DO:   Make Pause sign over screen when paused
-//          Fiddle with animation
-//          Test in browser
